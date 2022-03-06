@@ -1,0 +1,136 @@
+<!-- Metin Göl-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İLETİŞİM</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    window.onload = function () {
+      whatsapp_se_btn_phone = '905375435031'; //Telefon Numaranız
+      whatsapp_se_btn_msg = 'Merhaba, konuşmak ister misiniz?'; //Mesajınızı Yazınız
+      $(document.body).append('<div class="whatsapp-se-btn"></div>'), whatsapp_se_btn_base64 = "resim9.png",
+        $(".whatsapp-se-btn").attr("style", "position:fixed;bottom:15px;right:15px;overflow:hidden;background:#1bd741;color:#ffffff;text-align:center;padding:4px 4px;z-index:9999999;cursor:pointer;box-shadow:#000000 0 0 5px;border-radius:100px;"), $(".whatsapp-se-btn").html('<img style="width: 45px;" src="' + whatsapp_se_btn_base64 + '" alt="Whatsapp ile iletişime Geç" />'), $(".whatsapp-se-btn").attr("onclick", 'location.href="https://wa.me/' + whatsapp_se_btn_phone + "?text=" + whatsapp_se_btn_msg + '"');
+    }
+  </script>
+
+</head>
+
+<body>
+
+
+
+  <nav class="navbar">
+    <a href="index.html"> <i class="fas fa-home"></i> <span>ANA SAYFA</span> </a>
+    <a href="hakkimizda.html"> <i class="fas fa-user"></i> <span>HAKKINDA</span> </a>
+    <a href="iletisim.html"> <i class="fas fa-address-book"></i> <span>İLETİŞİM</span> </a>
+
+    <div class="dropdown">
+      <i class="fas fa-blog"></i>HIZLI ÖĞREN
+      <div class="dropdown-content">
+        <a href="https://www.w3schools.com/html/">Html</a>
+        <a href="https://www.w3schools.com/css/">Css</a>
+        <a href="https://www.w3schools.com/js/">Javascript</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="contact">
+
+    <h1 class="heading"> İLETİŞİM <span>BİLGİLERİM</span> </h1>
+
+    <div class="row">
+
+      <div class="info-container">
+
+        <h1>İLETİŞİME GEÇ</h1>
+
+        <p>Herhangi Bir Projeniz Varsa iletişime geçin :-)</p>
+
+        <div class="box-container">
+
+          <div class="box">
+            <div class="info">
+              <h3>adres :</h3>
+              <p>ISPARTA, TÜRKİYE</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="info">
+              <h3>e-mail :</h3>
+              <p>profmetinzeus@gmail.com</p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <div class="share">
+          <a href="https://twitter.com" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com/metinnngol/" class="fab fa-instagram"></a>
+          <a href="https://www.youtube.com/channel/UCqAD3T7i2nRqAKU1tvsXvQA" class="fab fa-youtube"></a>
+
+        </div>
+
+      </div>
+
+
+      <!-- <a href="javascript:void(
+        window.open(
+          'https://form.jotform.com/220544618150045',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+        Form_encoderass
+      </a> -->
+
+
+      <form action="">
+
+        <div class="inputBox">
+          <input type="text" placeholder="ADINIZ">
+          <input type="number" placeholder="NUMARANIZ">
+        </div>
+
+        <div class="inputBox">
+          <input type="email" placeholder="E-MAİL">
+          <input type="text" placeholder="KONU">
+        </div>
+
+        <textarea name="" placeholder="MESAJINIZ" id="" cols="30" rows="10"></textarea>
+
+        <input type="file" value="MESAJI GÖNDER" class="btn">
+        <input type="submit" value="MESAJI GÖNDER" class="btn">
+       
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="jquery.min.js"></script>
+
+</body>
+
+</html>
