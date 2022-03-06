@@ -1,4 +1,3 @@
-# metingol.github.io
+# https://profmetin.github.io/metingol.github.io/index.html
 TeknoMeto
 
-https://profmetin.github.io/metingol.github.io/index.html
