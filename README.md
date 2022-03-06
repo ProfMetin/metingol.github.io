@@ -1,2 +1,2 @@
 # metingol.github.io
-TekoMteto
+TeknoMeto
